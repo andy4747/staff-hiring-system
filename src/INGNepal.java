@@ -175,7 +175,16 @@ public class INGNepal {
                 String appointedBy = fullAppointedField.getText();
                 String qualification = fullQualificationField.getText();
 
-                if(vacNo.trim().equals("")||staffName.trim().equals("")||designation.trim().equals("")||jobType.trim().equals("")||salary.trim().equals("")||joinedDate.trim().equals("")||workHours.trim().equals("")||appointedBy.trim().equals("")||qualification.trim().equals("")) {
+                if(vacNo.trim().equals("")||
+                staffName.trim().equals("")||
+                designation.trim().equals("")||
+                jobType.trim().equals("")||
+                salary.trim().equals("")||
+                joinedDate.trim().equals("")||
+                workHours.trim().equals("")||
+                appointedBy.trim().equals("")||
+                qualification.trim().equals(""))
+                {
                     JOptionPane.showMessageDialog(frame,"Please fill the form correctly");
                 }else {
                     try {
@@ -226,7 +235,16 @@ public class INGNepal {
                 //qualification
                 //appointedBy
 
-                if(vacNo.trim().equals("")||staffName.trim().equals("")||designation.trim().equals("")||jobType.trim().equals("")||salary.trim().equals("")||joinedDate.trim().equals("")||workHours.trim().equals("")||appointedBy.trim().equals("")||qualification.trim().equals("")) {
+                if(vacNo.trim().equals("")||
+                staffName.trim().equals("")||
+                designation.trim().equals("")||
+                jobType.trim().equals("")||
+                salary.trim().equals("")||
+                joinedDate.trim().equals("")||
+                workHours.trim().equals("")||
+                appointedBy.trim().equals("")||
+                qualification.trim().equals(""))
+                {
                     JOptionPane.showMessageDialog(frame,"Please fill the form correctly");
                 }else {
                     try {
@@ -404,7 +422,17 @@ public class INGNepal {
                 String work =partWorkField.getText();
                 String qualification =partQualField.getText();
 
-                if(vacNo.trim().equals("") || designation.trim().equals("") || job.trim().equals("") || appointed.trim().equals("") || shift.trim().equals("") || wages.trim().equals("") || name.trim().equals("") || date.trim().equals("") || work.trim().equals("") || qualification.trim().equals("")) {
+                if(vacNo.trim().equals("")||
+                designation.trim().equals("")||
+                job.trim().equals("")||
+                appointed.trim().equals("")||
+                shift.trim().equals("")||
+                wages.trim().equals("")||
+                name.trim().equals("")||
+                date.trim().equals("")||
+                work.trim().equals("")||
+                qualification.trim().equals(""))
+                {
                     JOptionPane.showMessageDialog(frame,"Please fill the form correctly");
                 }else {
                     try {
@@ -448,7 +476,17 @@ public class INGNepal {
                 String work =partWorkField.getText();
                 String qualification =partQualField.getText();
 
-                if(vacNo.trim().equals("") || designation.trim().equals("") || job.trim().equals("") || appointed.trim().equals("") || shift.trim().equals("") || wages.trim().equals("") || name.trim().equals("") || date.trim().equals("") || work.trim().equals("") || qualification.trim().equals("")) {
+                if(vacNo.trim().equals("")||
+                designation.trim().equals("")||
+                job.trim().equals("")||
+                appointed.trim().equals("")||
+                shift.trim().equals("")||
+                wages.trim().equals("")||
+                name.trim().equals("")||
+                date.trim().equals("")||
+                work.trim().equals("")||
+                qualification.trim().equals(""))
+                {
                     JOptionPane.showMessageDialog(frame,"Please fill the form correctly");
                 }else {
                     try {
